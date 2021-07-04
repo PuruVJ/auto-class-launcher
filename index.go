@@ -16,7 +16,7 @@ type ClassTime struct {
 }
 
 type Class struct {
-	Link  string      `json:"link"`
+	Link  string      `json:"link,omitempty"`
 	Times []ClassTime `json:"times"`
 }
 
