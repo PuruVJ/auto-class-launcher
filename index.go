@@ -154,12 +154,8 @@ func openClassLink(config ClassConfig) {
 }
 
 func main() {
-	APPDATA_PATH := os.Getenv("APPDATA")
-	if APPDATA_PATH == "" {
-		APPDATA_PATH = os.Getenv("HOME")
-	}
 
-	CONFIG_PATH := APPDATA_PATH + "/auto-class-launcher-timetable.json"
+	CONFIG_PATH := "./auto-class-launcher-timetable.json"
 
 	var config ClassConfig
 
