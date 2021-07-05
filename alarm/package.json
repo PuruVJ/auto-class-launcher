@@ -6,9 +6,9 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.10",
-    "vite": "^2.4.0",
-    "sass": "^1.35.1"
+    "@sveltejs/vite-plugin-svelte": "1.0.0-next.10",
+    "sass": "^1.35.1",
+    "vite": "^2.4.0"
   },
   "dependencies": {
     "@mdi/js": "^5.9.55",
