@@ -38,19 +38,7 @@ When you launch the program the first time, you'll see this screen
 
 ![Welcome screen of the program](./images/program-startup-welcome.png)
 
-Notice the line in the middle that says `Your config file is stored at LOCATION`. You have to go to this path listed here(Note: It will be different for you).
-
-## Shortcuts to go to this path
-
-### Windows
-
-In Files, click on the address bar on top, and type `%APPDATA%`, and it will take you to the folder, and there you'll find the file named `auto-class-launcher-timetable.json`
-
-### Linux and macOS
-
-In Files, type `$HOME`, and there you'll find the file named `auto-class-launcher-timetable.json`
-
-Open up this file in a text editor(Visual Studio Code, Atoms, Notepad, Gedit, etc).
+**The config file is located right next to this program you are running, and it's named `auto-class-launcher-timetable.json`**
 
 So you open up the file, and you see this 👇
 
