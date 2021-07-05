@@ -85,7 +85,7 @@ func getClassesToday(config ClassConfig, weekDay string) []ClassToday {
 	return classesToday
 }
 
-func openClassLink(config map[string]Class) {
+func openClassLink(config ClassConfig) {
 	date := time.Now()
 	weekDay := strings.ToLower(date.Weekday().String())[0:3]
 
