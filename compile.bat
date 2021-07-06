@@ -1,1 +1,1 @@
-bash && ./compile.sh
+bash ./compile.sh
