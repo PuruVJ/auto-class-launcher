@@ -129,10 +129,10 @@ func openClassLink(config ClassConfig) {
 		fmt.Fprintf(
 			color.Output,
 
-			color.BlueString("[RUNNING] Launching next class "+color.CyanString("%s")+" @ %d:%s\n"),
+			color.BlueString("[RUNNING] Launching next class "+color.CyanString("%s")+" @ %d:%02d\n"),
 			upcomingClass.name,
-			upcomingClass.time.Hour(),
-			minuteStr,
+			launchTime.Hour(),
+			launchTime.Minute(),
 		)
 	}
 
