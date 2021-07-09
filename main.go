@@ -38,13 +38,16 @@ var sampleConfigStr []byte
 
 var todaysClassLaunched map[string]bool
 
-func getHourAndMinutes(time string) (int, int) {
-	timeArr := strings.Split(time, ":")
+func getTimeFrom_hh_mm(hh_mm_str string) time.Time {
+	timeArr := strings.Split(hh_mm_str, ":")
 
 	hours, _ := strconv.Atoi(timeArr[0])
 	minutes, _ := strconv.Atoi(timeArr[1])
 
-	return hours, minutes
+	currentTime := time.Now()
+	time := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), hours, minutes, 0, currentTime.Nanosecond(), currentTime.Location())
+
+	return time
 }
 
 func getClassesToday(config ClassConfig, weekDay string) []ClassToday {
@@ -65,9 +68,7 @@ func getClassesToday(config ClassConfig, weekDay string) []ClassToday {
 			continue
 		}
 
-		hours, minutes := getHourAndMinutes(todayTime.Time)
-		currentTime := time.Now()
-		time := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), hours, minutes, 0, currentTime.Nanosecond(), currentTime.Location())
+		time := getTimeFrom_hh_mm(todayTime.Time)
 
 		classesToday = append(classesToday, ClassToday{link: classContent.Link, name: className, time: time})
 	}
