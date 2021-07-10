@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-func getTimeFrom_hh_mm(hh_mm_str string) time.Time {
+func get_time_from_hh_mm(hh_mm_str string) time.Time {
 	timeArr := strings.Split(hh_mm_str, ":")
 
 	hours, _ := strconv.Atoi(timeArr[0])
@@ -37,7 +37,7 @@ func GetClassesToday(config ClassConfig, weekDay string) []ClassToday {
 			continue
 		}
 
-		time := getTimeFrom_hh_mm(todayTime.Time)
+		time := get_time_from_hh_mm(todayTime.Time)
 
 		classesToday = append(classesToday, ClassToday{link: classContent.Link, name: className, time: time})
 	}
