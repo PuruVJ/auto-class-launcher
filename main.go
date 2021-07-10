@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"net/url"
 	"os"
-	"sort"
 	"strconv"
 	"strings"
 	"time"
@@ -38,60 +37,12 @@ var sampleConfigStr []byte
 
 var todaysClassLaunched map[string]bool
 
-func getTimeFrom_hh_mm(hh_mm_str string) time.Time {
-	timeArr := strings.Split(hh_mm_str, ":")
-
-	hours, _ := strconv.Atoi(timeArr[0])
-	minutes, _ := strconv.Atoi(timeArr[1])
-
-	currentTime := time.Now()
-	time := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), hours, minutes, 0, currentTime.Nanosecond(), currentTime.Location())
-
-	return time
-}
-
-func getClassesToday(config ClassConfig, weekDay string) []ClassToday {
-	classesToday := []ClassToday{}
-
-	for className, classContent := range config {
-
-		todayTime := ClassTime{}
-
-		for _, val := range classContent.Times {
-			if val.Day == weekDay {
-				todayTime = val
-			}
-		}
-
-		// No time found, then move on
-		if (todayTime == ClassTime{}) {
-			continue
-		}
-
-		time := getTimeFrom_hh_mm(todayTime.Time)
-
-		classesToday = append(classesToday, ClassToday{link: classContent.Link, name: className, time: time})
-	}
-
-	if len(todaysClassLaunched) == 0 {
-		for _, classContent := range classesToday {
-			todaysClassLaunched[classContent.name] = time.Now().After(classContent.time)
-		}
-	}
-
-	sort.Slice(classesToday, func(i, j int) bool {
-		return classesToday[i].time.Before(classesToday[j].time)
-	})
-
-	return classesToday
-}
-
 func openClassLink(config ClassConfig) {
 	date := time.Now()
 	weekDay := strings.ToLower(date.Weekday().String())[0:3]
 
 	// classesToday
-	classesToday := getClassesToday(config, weekDay)
+	classesToday := GetClassesToday(config, weekDay)
 
 	// Find the upcoming class
 	upcomingClass := ClassToday{}
