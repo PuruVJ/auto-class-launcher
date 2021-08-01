@@ -32,10 +32,10 @@ type ClassToday struct {
 	link string
 }
 
+var todaysClassLaunched map[string]bool
+
 //go:embed sample.json
 var sampleConfigStr []byte
-
-var todaysClassLaunched map[string]bool
 
 func openClassLink(config ClassConfig) {
 	date := time.Now()
