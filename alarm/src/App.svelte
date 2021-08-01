@@ -22,7 +22,7 @@
     <Icon size={90} path={mdiAlarm} />
   </div>
   <br /><br />
-  <h1>Your class <mark>{className}</mark> is scheduled @ <mark>{timing}</mark></h1>
+  <h1>Your class <mark>{className}</mark> is @ <mark>{timing}</mark></h1>
 </main>
 
 <style>
