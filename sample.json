@@ -1,111 +1,116 @@
 {
-  "Discrete Structures": {
-    "link": "https://meet.google.com/txo-tvbd-zvt?authuser=2",
+  "DSD": {
+    "link": "https://meet.google.com/lookup/bgdvql5cu6",
     "times": [
       {
-        "day": "tue",
-        "time": "12:00"
+        "day": "mon",
+        "time": "10:00"
       },
       {
-        "day": "wed",
-        "time": "12:00"
+        "day": "tue",
+        "time": "9:00"
       },
       {
         "day": "thu",
-        "time": "11:00"
+        "time": "10:00"
       },
       {
         "day": "fri",
+        "time": "11:00"
+      }
+    ]
+  },
+  "DSD Practice": {
+    "link": "https://meet.google.com/lookup/bgdvql5cu6",
+    "times": [
+      {
+        "day": "tue",
         "time": "15:00"
       }
     ]
   },
-  "DSA": {
-    "link": "https://meet.google.com/iha-ajkk-map?authuser=2",
-    "times": [
-      {
-        "day": "tue",
-        "time": "10:00"
-      },
-      {
-        "day": "thu",
-        "time": "10:00"
-      },
-      {
-        "day": "fri",
-        "time": "14:00"
-      }
-    ]
-  },
-  "DSA Practise": {
-    "link": "https://meet.google.com/iha-ajkk-map?authuser=2",
-    "times": [
-      {
-        "day": "tue",
-        "time": "14:00"
-      }
-    ]
-  },
-  "Engineering Graphics": {
-    "link": "https://meet.google.com/uaa-brhr-rwy?authuser=2",
+  "Linear Algebra": {
+    "link": "https://meet.google.com/yhb-gsso-rvd?authuser=2",
     "times": [
       {
         "day": "mon",
-        "time": "12:00"
-      },
-      {
-        "day": "thu",
-        "time": "14:00"
-      },
-      {
-        "day": "mon",
-        "time": "12:00"
-      }
-    ]
-  },
-  "Engineering Graphics Practise": {
-    "link": "https://meet.google.com/uaa-brhr-rwy?authuser=2",
-    "times": [
-      {
-        "day": "mon",
-        "time": "14:00"
-      }
-    ]
-  },
-  "Design & Manufacturing Lab": {
-    "times": [
-      {
-        "day": "thu",
-        "time": "16:00"
-      }
-    ]
-  },
-  "Waves": {
-    "link": "https://meet.google.com/osh-yivo-sof?authuser=2",
-    "times": [
-      {
-        "day": "mon",
-        "time": "10:00"
-      },
-      {
-        "day": "tue",
-        "time": "9:00"
-      },
-      {
-        "day": "thu",
-        "time": "9:00"
-      },
-      {
-        "day": "fri",
         "time": "11:00"
+      },
+      {
+        "day": "tue",
+        "time": "10:00"
+      },
+      {
+        "day": "wed",
+        "time": "9:00"
+      },
+      {
+        "day": "fri",
+        "time": "14:00"
       }
     ]
   },
-  "Environmental Design": {
+  "DAA - Youtubeeeeee": {
+    "link": "https://www.youtube.com/channel/UCGxgiYa5l4ZpFpU-nnarqXg/playlists",
     "times": [
       {
+        "day": "mon",
+        "time": "12:00"
+      },
+      {
+        "day": "tue",
+        "time": "11:00"
+      },
+      {
+        "day": "thu",
+        "time": "9:00"
+      },
+      {
         "day": "fri",
-        "time": "16:00"
+        "time": "12:00"
+      }
+    ]
+  },
+  "DAA Discussion": {
+    "link": "https://meet.google.com/een-aerr-sbk?authuser=2",
+    "times": [
+      {
+        "day": "wed",
+        "time": "14:00"
+      }
+    ]
+  },
+  "DAA Practise": {
+    "link": "https://meet.google.com/een-aerr-sbk?authuser=2",
+    "times": [
+      {
+        "day": "wed",
+        "time": "15:00"
+      }
+    ]
+  },
+  "OOP": {
+    "link": "https://meet.google.com/gqd-gbaf-ixq?authuser=2",
+    "times": [
+      {
+        "day": "tue",
+        "time": "14:00"
+      },
+      {
+        "day": "wed",
+        "time": "11:00"
+      },
+      {
+        "day": "thu",
+        "time": "15:00"
+      }
+    ]
+  },
+  "Systems Thinking for Design": {
+    "times": [
+      {
+        "day": "wed",
+        "time": "15:00"
       }
     ]
   }
