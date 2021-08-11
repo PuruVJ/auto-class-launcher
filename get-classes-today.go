@@ -19,7 +19,7 @@ func get_time_from_hh_mm(hh_mm_str string) time.Time {
 	return time
 }
 
-func GetClassesToday(config ClassConfig, weekDay string) []ClassToday {
+func getClassesToday(config ClassConfig, weekDay string) []ClassToday {
 	classesToday := []ClassToday{}
 
 	for className, classContent := range config {

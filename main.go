@@ -42,7 +42,7 @@ func openClassLink(config ClassConfig) {
 	weekDay := strings.ToLower(date.Weekday().String())[0:3]
 
 	// classesToday
-	classesToday := GetClassesToday(config, weekDay)
+	classesToday := getClassesToday(config, weekDay)
 
 	// Find the upcoming class
 	upcomingClass := ClassToday{}
