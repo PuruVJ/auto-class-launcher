@@ -93,16 +93,16 @@
     "link": "https://meet.google.com/gqd-gbaf-ixq?authuser=2",
     "times": [
       {
+        "day": "mon",
+        "time": "11:00"
+      },
+      {
         "day": "tue",
         "time": "14:00"
       },
       {
-        "day": "wed",
-        "time": "11:00"
-      },
-      {
         "day": "thu",
-        "time": "15:00"
+        "time": "14:00"
       }
     ]
   },
