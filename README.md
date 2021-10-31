@@ -2,7 +2,7 @@
 
 This is a little script I wrote to launch my classes 5 minutes before! But it is highly customisable, and you can download it and use it for yourselves! Just feed it your timetable and it will work flawlessly.
 
-# Features
+## Features
 
 - 🚀 Launches your class link 5 minutes before the time.
 - ⏰ If link can't be provided, launches an alarm clock page for you
@@ -10,13 +10,13 @@ This is a little script I wrote to launch my classes 5 minutes before! But it is
 
 ![Alarm Clock page](./images/alarm-clock-page.png)
 
-# Who is this for?
+## Who is this for?
 
 1. This tool will only be useful if you have same links for each subject throughout, and your weekly schedule is same. If it changes week to week, this script isn't for you.
 
 2. The timetable is stored in a JSON file on your computer. **There's no Graphical User Interface**. You should know how to navigate your computer's filesystem, and have confidence in editing configuration files.
 
-# Getting started
+## Getting started
 
 Go to the [Releases](https://github.com/PuruVJ/auto-class-launcher/releases) page. There, you'll see some files under the **Assets** section
 
@@ -32,7 +32,7 @@ These are all executable binary files. Click on the file suitable for your opera
 
 When you download your file, simply double click on it to run it. And that's it!! You're almost done.
 
-# Editing the timetable
+## Editing the timetable
 
 When you launch the program the first time, you'll see this screen
 
@@ -105,7 +105,7 @@ subject:
 
 So all you have to do is change the subject names in it, the links, and the times.
 
-## What if I don't have a link (Or link changes every once in a while)?
+### What if I don't have a link (Or link changes every once in a while)?
 
 In that case, afraid you can't provide a link. But you can use the `Alarm Clock feature`. If you **don't provide a link**, but specify the times, it will automatically open up a webpage 5 minutes before reminding you that you have a class.
 
