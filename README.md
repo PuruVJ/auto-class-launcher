@@ -125,3 +125,15 @@ Example:
 ```
 
 As you can see, the time is defined, but no link provided.
+
+## Contributing
+Contributions of all sorts are welcomed. If you want to contribute to `auto-class-launcher`, there are three ways you can do so:
+
+1. Feature Requests
+If you feel that there's a feature this app is lacking, post a feature request.
+
+2. Testing
+There are cases when fixing a bug triggers another bug, which I might not notice during testing myself. Having more users would be a great help to close in on such bugs. If you encounter some bugs, post an issue regarding the bug.
+
+3. Pull Requests
+I'm maintaining this open-source project as a personal interest without any profits, hence I'll only be developing `auto-class-launcher` if I have the time and motivation to do so. Therefore, PRs from other developers are highly welcomed.
