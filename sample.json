@@ -1,35 +1,35 @@
 {
-  "DSD": {
+  "DBMS 💾": {
+    "link": "https://meet.google.com/bvh-ixke-qxj?authuser=2",
+    "times": [
+      {
+        "day": "mon",
+        "time": "9:00"
+      },
+      {
+        "day": "wed",
+        "time": "15:00"
+      },
+      {
+        "day": "thu",
+        "time": "9:00"
+      },
+      {
+        "day": "fri",
+        "time": "9:00"
+      }
+    ]
+  },
+  "DBMS Practice 💾": {
     "link": "https://meet.google.com/lookup/bxi53rg2xz",
     "times": [
       {
         "day": "mon",
-        "time": "10:00"
-      },
-      {
-        "day": "tue",
-        "time": "9:00"
-      },
-      {
-        "day": "thu",
-        "time": "10:00"
-      },
-      {
-        "day": "fri",
-        "time": "11:00"
+        "time": "14:00"
       }
     ]
   },
-  "DSD Practice": {
-    "link": "https://meet.google.com/lookup/bxi53rg2xz",
-    "times": [
-      {
-        "day": "tue",
-        "time": "15:00"
-      }
-    ]
-  },
-  "Linear Algebra": {
+  "Probability 🤥": {
     "link": "https://meet.google.com/yhb-gsso-rvd?authuser=2",
     "times": [
       {
@@ -41,8 +41,8 @@
         "time": "10:00"
       },
       {
-        "day": "wed",
-        "time": "9:00"
+        "day": "thu",
+        "time": "13:00"
       },
       {
         "day": "fri",
@@ -50,28 +50,28 @@
       }
     ]
   },
-  "DAA - Youtubeeeeee": {
+  "TOC - Youtubeeeeee 🎥": {
     "link": "https://www.youtube.com/channel/UCGxgiYa5l4ZpFpU-nnarqXg/playlists",
     "times": [
       {
         "day": "mon",
-        "time": "12:00"
+        "time": "10:00"
       },
       {
         "day": "tue",
-        "time": "11:00"
-      },
-      {
-        "day": "thu",
         "time": "9:00"
       },
       {
+        "day": "wed",
+        "time": "13:00"
+      },
+      {
         "day": "fri",
-        "time": "12:00"
+        "time": "11:00"
       }
     ]
   },
-  "DAA Discussion": {
+  "TOC Practical": {
     "link": "https://meet.google.com/een-aerr-sbk?authuser=2",
     "times": [
       {
@@ -80,44 +80,39 @@
       }
     ]
   },
-  "DAA Practise": {
-    "link": "https://meet.google.com/fmv-yypx-ofe?authuser=2",
-    "times": [
-      {
-        "day": "mon",
-        "time": "15:00"
-      }
-    ]
-  },
-  "OOP": {
+  "COA 😭": {
     "link": "https://meet.google.com/gqd-gbaf-ixq?authuser=2",
     "times": [
       {
         "day": "mon",
-        "time": "14:00"
+        "time": "13:00"
       },
       {
         "day": "tue",
-        "time": "14:00"
+        "time": "11:00"
       },
       {
         "day": "thu",
+        "time": "11:00"
+      },
+      {
+        "day": "fri",
+        "time": "13:00"
+      }
+    ]
+  },
+  "COA Practise": {
+    "times": [
+      {
+        "day": "tue",
         "time": "14:00"
       }
     ]
   },
-  "OOP Practise": {
+  "SPD 👩‍🦼": {
     "times": [
       {
         "day": "thu",
-        "time": "15:00"
-      }
-    ]
-  },
-  "Systems Thinking for Design": {
-    "times": [
-      {
-        "day": "wed",
         "time": "15:00"
       }
     ]
