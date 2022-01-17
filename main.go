@@ -2,7 +2,6 @@ package main
 
 import (
 	_ "embed"
-	"encoding/json"
 	"fmt"
 	"net/url"
 	"os"
@@ -11,6 +10,7 @@ import (
 	"time"
 
 	"github.com/fatih/color"
+	"github.com/ghodss/yaml"
 	"github.com/skratchdot/open-golang/open"
 )
 
@@ -34,7 +34,7 @@ type ClassToday struct {
 
 var todaysClassLaunched map[string]bool
 
-//go:embed sample.json
+//go:embed sample.yaml
 var sampleConfigStr []byte
 
 func openClassLink(config ClassConfig) {
@@ -106,16 +106,15 @@ func openClassLink(config ClassConfig) {
 }
 
 func main() {
-
-	CONFIG_PATH := "./auto-class-launcher-timetable.json"
+	CONFIG_PATH := "./auto-class-launcher-timetable.yaml"
 
 	var config ClassConfig
 
 	// Now check if file exists
 	if data, err := os.ReadFile(CONFIG_PATH); err == nil {
-		json.Unmarshal(data, &config)
+		yaml.Unmarshal(data, &config)
 	} else if os.IsNotExist(err) {
-		json.Unmarshal([]byte(sampleConfigStr), &config)
+		yaml.Unmarshal([]byte(sampleConfigStr), &config)
 
 		if os.WriteFile(CONFIG_PATH, sampleConfigStr, 0666) != nil {
 			fmt.Println("Unable to create timetable on disk")
