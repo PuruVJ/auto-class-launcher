@@ -11,7 +11,7 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/ghodss/yaml"
-	"github.com/skratchdot/open-golang/open"
+	"github.com/pkg/browser"
 )
 
 type ClassTime struct {
@@ -99,7 +99,7 @@ func openClassLink(config ClassConfig) {
 			link += "&timing=" + strconv.Itoa(upcomingClass.time.Hour()) + ":" + minuteStr
 		}
 
-		open.Run(link)
+		browser.OpenURL(link)
 
 		todaysClassLaunched[upcomingClass.name] = true
 	}
